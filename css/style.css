@@ -36,9 +36,18 @@ header {
 /* /Jumbotron */
 
 /* Portfolio-section */
-.portfolio [class*="col-"] {
+[class*="col-"] {
     border: 1px solid orange;
 }
 /* /Portfolio-section */
+
+/* About-section */
+.ms_container {
+    max-width: 60%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+/* /About-section */
 
 /* /MAIN */

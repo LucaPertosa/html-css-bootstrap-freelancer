@@ -1,4 +1,44 @@
+/* VARIABLES */
+:root {
+    --header-color: #2C3E50;
+    --header-height: 80px;
+    --jumbotron-color: #36BC9C;
+    --about-section-color: #3A546D;
+    --contact-text-color: #2C3E50;
+}
+
 /* RESET */
 img {
     max-width: 100%;
 }
+
+/* COMMON DEBUG */
+.container {
+    border: 1px solid red;
+}
+
+/* HEADER */
+header {
+    /* debug */
+    height: var(--header-height);
+    background-color: var(--header-color);
+}
+/* /HEADER */
+
+/* MAIN */
+
+/* Jumbotron */
+.jumbotron {
+    /* debug */
+    height: 200px;
+    background-color: var(--jumbotron-color);
+}
+/* /Jumbotron */
+
+/* Portfolio-section */
+.portfolio [class*="col-"] {
+    border: 1px solid orange;
+}
+/* /Portfolio-section */
+
+/* /MAIN */

@@ -8,7 +8,9 @@
     <title>Bootstrap Freelancer</title>
 
     <!-- LINK FONTAWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- LINK BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -45,19 +47,22 @@
             </div>
         </nav>
         <!-- Jumbotron -->
-        <div class="ms_jumbotron mb-2 p-4">
+        <div class="ms_jumbotron py-5">
             <div class="container text-center">
                 <img class="m-4" src="img/avatar.svg" alt="Avatar image">
+
+                <!-- Section-title -->
                 <h2 class="h1 ">START BOOTSTRAP</h2>
-                
+                <!-- /Section-title -->
+
                 <!-- Separation star -->
-                <span class="ms_separation d-flex  justify-content-center m-3">
-                    <p class="ms_line"></p>    
-                    <i class="fa-solid fa-star"></i>
+                <span class="ms_separation d-flex  justify-content-center my-4">
                     <p class="ms_line"></p>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="ms_line "></p>
                 </span>
                 <!-- /Separation star -->
-                
+
                 <p>
                     GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                 </p>
@@ -68,9 +73,23 @@
 
     <main>
         <!-- Portfolio-section -->
-        <section id="portfolio" class="py-2">
+        <section id="portfolio" class="py-5">
             <div class="container">
-                <h2 class="text-center">PORTFOLIO</h2>
+                <!-- Section-title -->
+                <h2 class="text-center my-2">
+                    PORTFOLIO
+                </h2>
+                <!-- /Section-title -->
+
+                <!-- Separation star -->
+                <span class="ms_separation d-flex  justify-content-center my-4">
+                    <p class="ms_line"></p>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="ms_line "></p>
+                </span>
+                <!-- /Separation star -->
+
+                <!-- Image-section -->
                 <div class="row g-3">
                     <div class="col-12 col-md-6 col-lg-4">
                         <img class="rounded-4" src="img/cabin.png" alt="">
@@ -91,35 +110,82 @@
                         <img class="rounded-4" src="img/submarine.png" alt="">
                     </div>
                 </div>
+                <!-- Image-section -->
             </div>
         </section>
         <!-- /Portfolio-section -->
 
         <!-- About-section -->
         <section id="about" class=" mb-2">
-            <div class="ms_container">
+            <div class="ms_container py-5">
                 <div class="container-fluid">
+                    <!-- Section-title -->
                     <h2 class="text-center">ABOUT</h2>
-                    <div class="row g-3">
-                        <div class="col-12 col-md-6">col</div>
-                        <div class="col-12 col-md-6">col</div>
+                    <!-- /Section-title -->
+
+                    <!-- Separation star -->
+                    <span class="ms_separation d-flex  justify-content-center my-4">
+                        <p class="ms_line"></p>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="ms_line "></p>
+                    </span>
+                    <!-- /Separation star -->
+
+                    <div class="row g-4 my-5">
+                        <div class="col-12 col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi autem quisquam, architecto dolorum tempore itaque dicta ut repudiandae cumque soluta corporis vel maxime corrupti? Nemo quasi nesciunt facilis laborum tenetur.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat possimus repellendus voluptates facere nihil laudantium tempora porro? Odit minus, facere vero ipsum placeat labore dolores voluptatum porro dolorum sunt?
+                            </p>
+                        </div>
                     </div>
-                    <button>download</button>
+                    <div class="d-flex justify-content-center mt-2">
+                        <button class="btn btn-outline-light" type="button"><i class="fa-solid fa-download"></i> Download</button>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- /About-section -->
 
         <!-- Contact-section -->
-        <section id="contact" class=" mb-2">
+        <section id="contact" class="mb-2 py-5">
             <div class="ms_container">
                 <div class="container-fluid  text-center">
+                    
+                    <!-- Section-title -->
                     <h2>CONTACT ME</h2>
-                    <form action="" class="d-flex flex-column align-items-center">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <button>Send</button>
+                    <!-- /Section-title -->
+
+                    <!-- Separation star -->
+                    <span class="ms_separation d-flex  justify-content-center my-4">
+                        <p class="ms_line"></p>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="ms_line "></p>
+                    </span>
+                    <!-- /Separation star -->
+
+                    <form action="">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingText" placeholder="Name">
+                            <label for="floatingText">Name</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
+                            <label for="floatingInput">Email Address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="tel" class="form-control" id="floatingNumber" placeholder="Phone number">
+                            <label for="floatingNumber">Phone number</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" id="floatingTextarea2" placeholder="Leave a comment here!"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+                        <button class="btn my-3" type="submit"> Send </button>
                     </form>
                 </div>
             </div>
@@ -141,6 +207,7 @@
     </main>
 
     <footer>
+        <span class="border rounded-circle p-2"><i class="fa-brands fa-twitter"></i></span>
         <div class="container text-center p-2">
             <p>Copyright © Your Website 2023 </p>
         </div>

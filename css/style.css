@@ -2,7 +2,7 @@
 :root {
     --header-footer-color: #2C3E50;
     --header-height: 80px;
-    --jumbotron-color: #36BC9C;
+    --primarybac-color: #36BC9C;
     --otherinfo-section-color: #3A546D;
     --contact-text-color: #2C3E50;
 }
@@ -53,44 +53,70 @@ header .navbar {
 
 /* Jumbotron */
 .ms_jumbotron {
-    /* debug */
     margin-top: var(--header-height);
     color: white;
-    background-color: var(--jumbotron-color);
+    background-color: var(--primarybac-color);
 }
 
 .ms_jumbotron img {
     width: 200px;
 }
+
 /* /Jumbotron */
 
 /* Portfolio-section */
-[class*="col-"] {
-    border: 1px solid orange;
+#portfolio {
+    color: var(--contact-text-color);
 }
 /* /Portfolio-section */
 
 /* About-section */
-.about {
-    background-color: var(--jumbotron-color);
+#about {
+    background-color: var(--primarybac-color);
+    color: white;
 }
 .ms_container {
     max-width: 60%;
     margin: 0 auto;
-    /* debug */
-    border: 1px solid black;
 }
 /* /About-section */
 
 /* Contact-section */
+.form-control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--contact-text-color);
+}
 
+.form-control:focus {
+    border-color: unset;
+    box-shadow: none;
+}
+
+#floatingTextarea2 {
+    height: 150px;
+}
+
+#contact .btn {
+    color: white;
+    background-color: var(--primarybac-color);
+    border: 1px solid var(--primarybac-color);
+}
+
+#contact .btn:hover {
+    color: var(--primarybac-color);
+    background-color: initial;
+
+}
 /* /Contact-section */
 
 /* Other-info-section */
-    .info {
-        /* debug */
-        background-color: var(--otherinfo-section-color);
-    }
+.info {
+    /* debug */
+    background-color: var(--otherinfo-section-color);
+}
 /* /Other-info-section */
 /* /MAIN */
 

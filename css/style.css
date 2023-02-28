@@ -111,17 +111,40 @@ header .navbar {
 
 }
 /* /Contact-section */
-
-/* Other-info-section */
-.info {
-    /* debug */
-    background-color: var(--otherinfo-section-color);
-}
-/* /Other-info-section */
 /* /MAIN */
 
 /* FOOTER */
 footer {
     background-color: var(--header-footer-color);
+    color: white;
 }
+/* Other-info-section */
+.ms_info {
+    color: white;
+    background-color: var(--otherinfo-section-color);
+}
+
+.ms_info a {
+    color: inherit;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+.ms_info a:hover {
+    transform: scale(1.1);
+}
+
+.ms_info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ms_start {
+    color: var(--primarybac-color);
+    text-decoration: underline;
+}
+/* /Other-info-section */
 /* /FOOTER */

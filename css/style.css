@@ -13,26 +13,54 @@ img {
     display: inline-block;
 }
 
-/* COMMON DEBUG */
-.container {
-    border: 1px solid red;
+/* COMMON */
+
+.ms_separation {
+    min-width: 150px;
+    position: relative;
 }
 
+.ms_line {
+    width: 30%;
+    max-width: 150px;
+    border-bottom: 3px solid;
+}
+
+.ms_separation i {
+    margin: 0 20px;
+    font-size: 2rem;
+}
 /* HEADER */
-header .nav {
-    /* debug */
+header .navbar {
     height: var(--header-height);
+    color: white;
     background-color: var(--header-footer-color);
+}
+
+.navbar button {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.nav-link {
+    color: white;
 }
 /* /HEADER */
 
 /* MAIN */
 
 /* Jumbotron */
-.jumbotron {
+.ms_jumbotron {
     /* debug */
-    height: 200px;
+    margin-top: var(--header-height);
+    color: white;
     background-color: var(--jumbotron-color);
+}
+
+.ms_jumbotron img {
+    width: 200px;
 }
 /* /Jumbotron */
 
@@ -43,6 +71,9 @@ header .nav {
 /* /Portfolio-section */
 
 /* About-section */
+.about {
+    background-color: var(--jumbotron-color);
+}
 .ms_container {
     max-width: 60%;
     margin: 0 auto;
